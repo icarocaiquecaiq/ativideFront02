@@ -2,14 +2,14 @@ funcao maiorData =  passo 1: pega o primeiro parametro e converte para o tipo da
     passo 2: pega o segundo parametro e converte para o tipo data com fuso horarío correto        
     passo 3: compara os dois e retorna o maior parametro
 
-funcao intervaloData = passo 1 pega o primeiro parametro e converte para o tipo data com fuso horarío correto
-    passo 2 pega o segundo parametro e converte para o tipo data com fuso horarío correto        
-    passo 3 verifica qual o maior entre parametro A e B. Se A, então A - B. Se B então B - A. Diferenca retorna em milisegundos desde 1970
+funcao intervaloData = passo 1: pega o primeiro parametro e converte para o tipo data com fuso horarío correto
+    passo 2: pega o segundo parametro e converte para o tipo data com fuso horarío correto        
+    passo 3: verifica qual o maior entre parametro A e B. Se A, então A - B. Se B então B - A. Diferenca retorna em milisegundos desde 1970
 
-funcao padraoData =  passo 1 gerar um tipo de dado Date do horario do computador
-    passo 2 pegar os minutos do tipo Date e transformar em string
-    passo 3 pegar as horas do tipo Date e tranforma em string com "0" na frente
-    passo 4 pegar o dia do tipo Date e tranforma em string com "0" na frente
-    passo 5 pegar o mes do tipo Date e tranforma em string com "0" na frente
-    passo 6 pegar o ano do tipo Date e tranforma em string
-    passo 7 retorna um template string com as variáveis criadas
+funcao padraoData =  passo 1: gerar um tipo de dado Date do horario do computador
+    passo 2: pegar os minutos do tipo Date e transformar em string
+    passo 3: pegar as horas do tipo Date e tranforma em string com "0" na frente
+    passo 4: pegar o dia do tipo Date e tranforma em string com "0" na frente
+    passo 5: pegar o mes do tipo Date e tranforma em string com "0" na frente
+    passo 6: pegar o ano do tipo Date e tranforma em string
+    passo 7: retorna um template string com as variáveis criadas
